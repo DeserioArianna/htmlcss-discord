@@ -138,6 +138,16 @@ strong {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
 }
+#tecno {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+#paragraph-2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
 .backg-2 {
     background-color: #d3d3d3;
     height: 400px;
@@ -164,6 +174,7 @@ strong {
 
 .box-7 {
     width: 100%;
+    min-height: 700px;
 }
 
 .backg-4 {
@@ -176,10 +187,15 @@ strong {
 h4{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    position: relative;
+    margin: 30px;
 }
 .stars {
     font-size: 15px;
     display: block;
+    position: absolute;
+    width: 50%;
+    margin-left: 100px;
 }
 
 .central {
@@ -196,32 +212,59 @@ h4{
     min-height: 350px;
 }
 
-.rectangle-2 {
-    width: calc(70%/4);
-    height: 350px;
-    background-color: #21b2aa;
-    border: 1px solid #ffffff;
+.flag {
+    width: 20px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    vertical-align: middle;
 }
 
+.social {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.title-2 {
+    text-align: left;
+    color: #7389da;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.rectangle-2 {
+    width: calc(70%/4);
+    min-height: 350px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#list {
+    color: #7389da;
+}
+
+.text-white {
+    color: #ffffff;
+}
 .rectangle-3 {
     width: calc(70%/4);
-    height: 350px;
-    background-color: #21b2aa;
-    border: 1px solid #ffffff;
+    min-height: 350px;
+    margin-left: 20px;
 }
 
 .rectangle-4 {
     width: calc(70%/4);
-    height: 350px;
-    background-color: #21b2aa;
-    border: 1px solid #ffffff;
+    min-height: 350px;
+    margin-left: 20px;
 }
 
 .rectangle-5 {
     width: calc(70%/4);
-    height: 350px;
-    background-color: #21b2aa;
-    border: 1px solid #ffffff;
+    min-height: 350px;
+    margin-left: 20px;
 }
 
 .backg-5 {
@@ -244,20 +287,20 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* debug */
-    background-color: #7fffd4;
-    height: 40px;
 }
 
 .logo-2 {
-    background-color: #ffb6c2;
     width: 50px;
     text-align: center;
-    border: 1px solid #000000;
 }
 
-button{
-    background-color: #ffb6c2;
+.button{
+    background-color: #7389da;
     width: 60px;
+    color: #ffffff;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    padding: 6px 0;
 }
