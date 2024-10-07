@@ -24,19 +24,12 @@ a {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-
-    /* debug */
-    /* border: 1px solid black; 
-    height: 30px;    */
 }
 
 .section-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    /* background-color: #daa521;
-    height: 100%; */
 }
 
 .logo {
@@ -51,7 +44,17 @@ a {
 .login {
     text-align: center;
     width: 10%;
-    color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.integer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-2{
@@ -67,10 +70,36 @@ a {
     width: 60%;
     max-width: 900px;
     margin: 0 auto;
+}
 
-    /* debug */
+.title-important {
+    text-align: center;
+    color: #ffffff;
+    font-family: Whitney, "Helvetica neuve", Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
 
-    height: 250px; */
+.paragraph {
+    color: #ffffff;
+    text-align: center;
+}
+
+.mac, .browser {
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+
+.mac {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
+.browser {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 9px;
 }
 
 .backg-1 {
