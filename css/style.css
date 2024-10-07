@@ -148,7 +148,6 @@ strong {
 
 .box-5 {
     width: 40%;
-    padding-bottom: ;
 }
 
 .box-6 {
@@ -157,7 +156,7 @@ strong {
 
 .backg-3{
     background-color: #d3d3d3;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,23 +164,36 @@ strong {
 
 .box-7 {
     width: 100%;
-    height: 550px;
-    background-color: #238b21;
 }
 
 .backg-4 {
     background-color: #23272a;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.stars {
+    font-size: 15px;
+    display: block;
+}
 
+.central {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.color {
+    background-color: #7389da;
+    color: #ffffff;
+}
 .rectangle-1 {
     width: 30%;
-    height: 350px;
-    background-color: #f08080;
-    border: 1px solid #ffffff;
+    min-height: 350px;
 }
 
 .rectangle-2 {
